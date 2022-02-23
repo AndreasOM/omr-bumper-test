@@ -4,4 +4,4 @@ version = 3
 
 [[package]]
 name = "omr-bumper-test"
-version = "0.1.2-dev"
+version = "0.1.2-alpha"
