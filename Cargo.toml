@@ -4,5 +4,13 @@ version = "0.1.6-dev"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[features]
+default = []
+audio-apple = [ "oml-audio/use_apple" ]
 
 [dependencies]
+
+[dependencies.oml-audio]
+version = "0.6.5-alpha"
+optional = true
+
